@@ -1,0 +1,124 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Une petite question ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- ÉCRAN 1 -->
+        <section id="question" class="page active">
+
+            <div class="card">
+
+                <div class="heart">❤️</div>
+
+                <h1>J'ai une petite question...</h1>
+
+                <p>
+                    Est-ce que tu accepterais<br>
+                    de passer un moment avec moi ?
+                </p>
+
+                <div class="buttons">
+
+                    <button id="yesButton" class="yes">
+                        Oui ❤️
+                    </button>
+
+                    <button id="noButton" class="no">
+                        Non
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ÉCRAN 2 -->
+        <section id="dates" class="page">
+
+            <div class="card">
+
+                <div class="heart">🗓️</div>
+
+                <h1>Alors... quand ?</h1>
+
+                <p>
+                    Choisis le moment qui te convient le mieux ❤️
+                </p>
+
+                <div class="date-options">
+
+                    <button class="date" data-date="Vendredi à 19h">
+                        <strong>Vendredi</strong>
+                        <span>19h00</span>
+                    </button>
+
+                    <button class="date" data-date="Samedi à 14h">
+                        <strong>Samedi</strong>
+                        <span>14h00</span>
+                    </button>
+
+                    <button class="date" data-date="Samedi à 19h">
+                        <strong>Samedi</strong>
+                        <span>19h00</span>
+                    </button>
+
+                    <button class="date" data-date="Dimanche à 15h">
+                        <strong>Dimanche</strong>
+                        <span>15h00</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ÉCRAN 3 -->
+        <section id="confirmation" class="page">
+
+            <div class="card">
+
+                <div class="heart">🥰</div>
+
+                <h1>C'est noté ❤️</h1>
+
+                <p>
+                    Rendez-vous :
+                </p>
+
+                <div id="selectedDate" class="selected-date"></div>
+
+                <p>
+                    J'ai hâte de te voir !
+                </p>
+
+                <div class="hearts">
+                    ❤️ 💕 ❤️ 💕 ❤️
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
